@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: seagreen; */
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: lightseagreen; */
+    backdrop-filter: blur(2vmax);
+}
+nav >ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    user-select: none;
+    padding: 0 7vmax;
+}
+nav >ul >li{
+    padding-top: 1vh;
+    font-family: cursive;
+    /* background-color: gainsboro; */
+    padding: 0.3vmax 1.3vmax;
+    border-top: 0.1vmax solid transparent;
+    border-radius: 0.5vmax;
+    transition: all linear 0.5s;
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+/* nav >ul >li:hover{
+    border-top: 0.1vmax solid black;
+    background: linear-gradient(black,gray,lightgray,whitesmoke);
+} */
+nav >ul button{
+    font-size: 1.2vmax;
+    padding: 0.2vmax 1vmax;
+    font-family: cursive;
+    border-radius: 1vmax;
+    border: none;
+    border-bottom: 0.1vmax solid black;
+    border-right: 0.1vmax solid black;
+    box-shadow: 0 0 0.5vmax transparent;
+}
+nav >ul button:hover{
+    transform: scale(1.01);
+    box-shadow: 0.1vmax 0.1vmax 0.3vmax black;
+}
+nav >ul >h1{
+    padding-top: 5vh;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 0.3vmax;
+}
+.page1-contener{
+    height: 90vh;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    background-image: url(https://t3.ftcdn.net/jpg/05/05/44/60/360_F_505446071_dimFoxXBcfpdZRExBxjbuTVq4Z90fRsc.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 62%;
+    /* padding: 2vmax; */
+}
+.page1-left{
+    height: 90vh;
+    width: 80%;
+    /* background-color: yellowgreen; */
+    /* background-image: url(https://t3.ftcdn.net/jpg/05/05/44/60/360_F_505446071_dimFoxXBcfpdZRExBxjbuTVq4Z90fRsc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-text{
+    height: 40vh;
+    width: 60%;
+    /* background-color: red; */
+    margin-left: -5vmax;
+}
+.left-text >h1{
+    padding-top: 2vh;
+    font-size: 3vmax;
+    color: whitesmoke;
+    /* font-family: 'Great Vibes', cursive; */
+    font-weight: 400;
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left-text >p{
+    user-select: none;
+    padding-top: 2vh;
+    /* background-color: orchid; */
+    color: whitesmoke;
+    width: 75%;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left-text >button{
+    margin-top: 2vh;
+    margin-left: 19vmax;
+    padding: 0.5vmax 1vmax;
+    border-radius: 2vmax;
+    user-select: none;
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    font-weight: 700;
+    box-shadow: 0 0 1vmax rgba(245, 245, 245, 0.66);
+}
+
+.page1-right{
+    height: 90vh;
+    width: 20%;
+    /* background-color: rebeccapurple; */
+    border-top-left-radius: 50vmax;
+    box-shadow: 0 0 1vmax rgba(0, 0, 0, 0.269);
+    background: linear-gradient(to top right,rgba(0, 0, 0, 0.468),rgba(211, 211, 211, 0.696),white,white);
+}
+.right-image{
+    height: 60vh;
+    width: 100%;
+    background-color: olivedrab;
+    transform: translate(-9vmax , 8vmax);
+    background-image: url(https://i.pinimg.com/564x/be/8f/15/be8f151305f92e523dfd57bf10195532.jpg);
+    border-radius: 1vmax;
+    box-shadow: 0 0 0.5vmax black;
+    border-top-right-radius: 5vmax;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
